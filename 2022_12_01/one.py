@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-INPUT_FILE = "example_input_one"
+INPUT_FILE = "aoc_2022_day01_large_input.txt"
 
 
 def main():
