@@ -26,9 +26,6 @@ def main():
                 visible = True
             boolean_map[verpos][horpos] = visible
 
-#    for line in boolean_map:
-#        print(line)
-
     counter = 0
     for line in boolean_map:
         for value in line:
@@ -42,11 +39,10 @@ def turn_tree_map(tree_map):
     turned_map = []
     for _ in range(0, width):
         turned_map.append([])
-    for verpos, verline in enumerate(tree_map):
+    for verline in tree_map:
         for horpos, horval in enumerate(verline):
             turned_map[horpos].append(horval)
     return turned_map
-
 
 
 def structure_input(lines):
